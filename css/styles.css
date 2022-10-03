@@ -1,0 +1,176 @@
+body {
+  text-align: center;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+
+}
+
+.nav-link {
+    font-family: "Montserrat-Light";
+    font-size: 1.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Ubuntu";
+}
+
+.nav-item {
+  padding: 0 16px;
+}
+
+/* downlode button */
+.downlode-btn {
+  margin: 5% 5% 0 0;
+}
+
+/* image rotate */
+.title-img {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+@media (max-width:1028px) {
+  .container-fluid {
+    text-align: center;
+  }
+
+  .title-img {
+    width: 50%;
+    padding: 7% 0 0;
+    position: static;
+    transform:rotate(0);
+  }
+}
+
+/* features */
+#features {
+  padding: 2% 9%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  /* to make it more center  */
+}
+
+.col-lg-4 {
+  margin: 0;
+}
+
+.pp {
+  color: #8f8f8f;
+}
+
+.features {
+  margin: 6rem 0 3rem;
+}
+
+.feat-img {
+  font-size: 3.5rem;
+  margin: 2rem 0 1rem;
+  color: #ef8172;
+  /* as we are using those icons as <i> , to change the size we have to use "font-size: "
+  and not "width:" */
+}
+
+.feat-img:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  padding: 7% 0 5%;
+  background-color: #ef8172;
+  color: white;
+}
+
+h2 {
+  line-height: 2;
+}
+
+.testimonials-img {
+  width: 20%;
+  margin: 3%;
+  border-radius: 100%;
+}
+
+.press-img {
+  width: 20%;
+  padding: 0 2% 5%;
+}
+
+.carousel-item {
+   padding: 0 19% 0;
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+  padding: 0 7%;
+}
+
+/* pricing */
+
+#pricing {
+    padding-top: 5%;
+}
+
+.pricing-class {
+  padding: 3% 3%;
+}
+
+/* cta */
+
+#cta {
+  background-color: #ff4c68;
+  padding: 5% 0;
+  color: white;
+  font-family: "Montserrat";
+}
+
+.h33 {
+   font-size: 2.5rem;
+   margin: 0;
+   padding: 0 15%;
+}
+
+#footer {
+  padding: 7% 0 2%;
+}
+
+.foot-img {
+  margin: 1%;
+  color: black;
+}
+
+.ppp {
+  color: #8f8f8f;
+  font-size: 80%;
+  padding-top: 8%:
+}
+
+.foot-img:hover {
+  color: #ff4c68;
+}
